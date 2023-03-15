@@ -24,7 +24,7 @@ export const LoginPage = ({ setIsLoggedIn, setUserName }) => {
 
 
         if (login === 'admin' && password === 'admin' || 
-            login === 'john_doe' && password === '12345' ||
+            login === 'Kirils' && password === 'Logins' ||
             login === 'Joker' && password === 'hahaha' || 
             login === 'Mario' && password === 'pudding' ||
             login === 'Dmytro' && password === 'mypass') {
