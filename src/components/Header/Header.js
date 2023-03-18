@@ -6,24 +6,24 @@ export const Header = ({ isLoggedIn, setIsLoggedIn, userName }) => {
         localStorage.removeItem('todos');
         localStorage.setItem('isLoggedIn', false);
         setIsLoggedIn(false);
-      };
+    };
 
     return (
         <header className={styles.Header}>
 
             {
                 isLoggedIn ?
-                <nav>
-                    Sveiks,&nbsp;<strong>{userName}</strong>!
-                    <NavLink
-                        onClick={handleLogOut}
-                        activeclassname={styles.activeLink}
-                        exact="true" to="/login">
+                    <nav>
+                        Sveiks,&nbsp;<strong>{userName}</strong>!
+                        <NavLink
+                            onClick={handleLogOut}
+                            activeclassname={styles.activeLink}
+                            exact="true" to="/login">
                             ↪ Izlogoties
-                    </NavLink>
-                </nav>
+                        </NavLink>
+                    </nav>
 
-                : "Sveiks, čoms!"
+                    : "Sveiks, čoms!"
             }
 
 

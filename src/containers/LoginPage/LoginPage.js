@@ -23,9 +23,9 @@ export const LoginPage = ({ setIsLoggedIn, setUserName }) => {
         localStorage.setItem('userName', login);
 
 
-        if (login === 'admin' && password === 'admin' || 
+        if (login === 'admin' && password === 'admin' ||
             login === 'Kirils' && password === 'Logins' ||
-            login === 'Joker' && password === 'hahaha' || 
+            login === 'Joker' && password === 'hahaha' ||
             login === 'Mario' && password === 'pudding' ||
             login === 'Dmytro' && password === 'mypass') {
             setUserName(login);
@@ -34,7 +34,7 @@ export const LoginPage = ({ setIsLoggedIn, setUserName }) => {
         } else {
             alert('Invalid login or password');
         }
-        
+
     }
 
     return (
@@ -42,20 +42,20 @@ export const LoginPage = ({ setIsLoggedIn, setUserName }) => {
             <form className="login-form" onSubmit={handleLogIn}>
                 <h1>Autorizācija</h1>
                 <div>
-                    <input 
-                    className="login-form-input" 
-                    type="text" 
-                    placeholder="Lietotājvārds"
-                    onChange={handleLoginChange}
-                    required/>
+                    <input
+                        className="login-form-input"
+                        type="text"
+                        placeholder="Lietotājvārds"
+                        onChange={handleLoginChange}
+                        required />
                 </div>
                 <div>
-                    <input 
-                    className="login-form-input" 
-                    type="password" 
-                    placeholder="Parole"
-                    onChange={handlePasswordChange}
-                    required
+                    <input
+                        className="login-form-input"
+                        type="password"
+                        placeholder="Parole"
+                        onChange={handlePasswordChange}
+                        required
                     />
                 </div>
                 <div>

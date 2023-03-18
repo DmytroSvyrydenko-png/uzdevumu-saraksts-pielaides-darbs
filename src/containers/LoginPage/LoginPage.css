@@ -4,12 +4,12 @@
 }
 
 .login-button {
-    margin-top: 2em;
-    color: var(--btn-log-color);
-    width: 450px;
+  margin-top: 2em;
+  color: var(--btn-log-color);
+  width: 450px;
 }
-  
+
 .login-button:hover {
-    color: var(--btn-txt-hvr-color);
-    background: var(--btn-log-color);
+  color: var(--btn-txt-hvr-color);
+  background: var(--btn-log-color);
 }

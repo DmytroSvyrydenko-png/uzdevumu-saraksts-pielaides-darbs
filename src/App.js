@@ -37,10 +37,10 @@ export function App() {
               path="/login"
               element={
                 !isLoggedIn ?
-                <LoginPage
-                  setIsLoggedIn={setIsLoggedIn}
-                  setUserName={setUserName}
-                /> : <Navigate to="/tasks" />
+                  <LoginPage
+                    setIsLoggedIn={setIsLoggedIn}
+                    setUserName={setUserName}
+                  /> : <Navigate to="/tasks" />
               }
             />
 

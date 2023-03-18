@@ -20,13 +20,13 @@ header a {
     display: inline-block;
     margin: 0 10px;
 }
-  
+
 header a:hover {
     color: var(--btn-log-color);
     font-weight: 600;
 }
 
-.active{
-    color: var(--btn-log-color);;
+.active {
+    color: var(--btn-log-color);
     font-weight: 600;
 }

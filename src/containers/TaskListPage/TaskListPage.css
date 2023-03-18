@@ -49,7 +49,7 @@ li {
   letter-spacing: 0.02rem;
   transition: all 0.3s ease-out;
   border-left: 5px solid #cf972e;
-  word-break:break-all;
+  word-break: break-all;
 }
 
 li:last-child {
