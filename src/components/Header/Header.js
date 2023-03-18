@@ -23,7 +23,7 @@ export const Header = ({ isLoggedIn, setIsLoggedIn, userName }) => {
                     </NavLink>
                 </nav>
 
-                : "Sveiks, čomis!"
+                : "Sveiks, čoms!"
             }
 
 
